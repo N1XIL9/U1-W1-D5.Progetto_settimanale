@@ -145,3 +145,31 @@ cite {
     margin-top: 30px;
 }
 
+/* FOOTER  */
+
+footer {
+    padding: 50px;
+    background-color: #25a2c3;
+    
+}
+
+footer h1 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+address {
+    font-size: 20px;
+    color: #c8e7f0;
+    margin-bottom: 30px;
+}
+
+hr {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.copywrite {
+    margin-top: 40px;
+    color: #c8e7f0;
+}
