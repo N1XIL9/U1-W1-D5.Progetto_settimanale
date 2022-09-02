@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+    
+}
+
+section {
+    border: 1px solid black;
+}
