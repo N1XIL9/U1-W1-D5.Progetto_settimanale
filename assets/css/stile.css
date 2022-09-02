@@ -124,6 +124,7 @@ cite {
 .cards {
     border: 1px solid #dee1e3;
     margin-bottom: 50px;
+    padding: 10px;
 }
 
 .cards img {
@@ -136,9 +137,11 @@ cite {
 }
 
 .cards p {
-    font-size: 25px;
+    font-size: 22px;
 }
 
-.containercards {
+.containerCards {
     padding: 30px;
+    margin-top: 30px;
 }
+
