@@ -7,10 +7,6 @@ body {
     margin: 0 auto;
 }
 
-section {
-    border: 1px solid black;
-}
-
 header {
     background-color: black;
     padding: 30px;
@@ -97,6 +93,7 @@ h1, h2 {
 .epicodeGarantisce {
     background-color: #e22d0e;
     margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .epicodeGarantisce h1 {
@@ -120,4 +117,25 @@ cite {
 
 .ceoEpicode {
     font-size: 20px;
+}
+
+/* CARDS  */
+
+.cards {
+    border: 1px solid #dee1e3;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.cards img {
+    width: 100%;
+}
+
+.cards h2 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.cards p {
+    font-size: 25px;
 }
