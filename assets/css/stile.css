@@ -9,10 +9,9 @@ section {
     border: 1px solid black;
 }
 
-/* LOGO  */
-
 header {
     background-color: black;
+    padding: 30px;
 }
 
 /* H1 H2 SETTINGS */
@@ -24,6 +23,40 @@ h1, h2 {
     color: #25a2c3;
 }
 
+/* LOGO  */
+.logo {
+    width: 180px;
+    height: auto;
+}
+
 /* BANNER */
+.banner {
+    background-image: url("../images/banner.jpg");
+    background-position: center;
+    height: 55vh;
+}
+
+.banner h1 {
+    margin-top: 70px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.bRTIanner p {
+    padding: 25px;
+    margin-top: 10px;
+    font-size: 23px;
+}
+
+.buttom {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 15px 30px 15px 30px ;
+    background-color: #f04c2f;
+    color: white;
+    border: none;
+}
 
 
