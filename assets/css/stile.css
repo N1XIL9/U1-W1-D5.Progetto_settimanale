@@ -3,6 +3,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.65;
     font-size: 1.2rem;  
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 section {
@@ -35,12 +37,13 @@ h1, h2 {
 .banner {
     background-image: url("../images/banner.jpg");
     background-position: center;
-    height: 55vh;
+    background-size: cover;
+    height: 57vh;
 }
 
 .banner h1 {
     margin-top: 70px;
-    font-size: 45px;
+    font-size: 46px;
     line-height: 1;
 }
 
@@ -53,12 +56,12 @@ h1, h2 {
 .buttom {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    margin-top: 20px;
     font-size: 20px;
-    padding: 15px 30px 15px 30px ;
+    padding: 20px 30px 20px 30px ;
     background-color: #f04c2f;
     color: white;
     border: none;
+    border-radius: 5px;
 }
 
 /* SECTIONS  */
@@ -86,8 +89,35 @@ h1, h2 {
 
 .circleImg {
     border-radius: 50%;
+    width: 80%;
 }
 
 /* TESTIMONIALS  */
 
+.epicodeGarantisce {
+    background-color: #e22d0e;
+    margin-bottom: 20px;
+}
 
+.epicodeGarantisce h1 {
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+cite {
+    color: white;
+    font-size: 22px;
+}
+
+.mr {
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+    line-height: 1;
+}
+
+.ceoEpicode {
+    font-size: 20px;
+}
