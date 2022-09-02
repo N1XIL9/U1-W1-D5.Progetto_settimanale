@@ -42,7 +42,7 @@ h1, h2 {
     line-height: 1;
 }
 
-.bRTIanner p {
+.banner p {
     padding: 25px;
     margin-top: 10px;
     font-size: 23px;
@@ -58,5 +58,22 @@ h1, h2 {
     color: white;
     border: none;
 }
+
+/* SECTIONS  */
+
+.sections {
+    padding: 24px;
+}
+
+.sections, h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.circleImg {
+    border-radius: 50%;
+}
+
 
 
