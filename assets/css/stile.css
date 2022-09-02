@@ -5,6 +5,7 @@ body {
     font-size: 1.2rem;  
     max-width: 500px;
     margin: 0 auto;
+    font-weight: 100;
 }
 
 header {
@@ -34,17 +35,19 @@ h1, h2 {
     background-image: url("../images/banner.jpg");
     background-position: center;
     background-size: cover;
-    height: 57vh;
+    height: 65vh;
+    padding: 25px;
+    padding-bottom: 0px;
 }
 
 .banner h1 {
-    margin-top: 70px;
+    margin-top: 60px;
     font-size: 46px;
     line-height: 1;
 }
 
 .banner p {
-    padding: 25px;
+    padding: 20px;
     margin-top: 10px;
     font-size: 23px;
 }
@@ -53,7 +56,7 @@ h1, h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 20px;
-    padding: 20px 30px 20px 30px ;
+    padding: 20px 40px 20px 40px ;
     background-color: #f04c2f;
     color: white;
     border: none;
@@ -93,7 +96,8 @@ h1, h2 {
 .epicodeGarantisce {
     background-color: #e22d0e;
     margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
 
 .epicodeGarantisce h1 {
@@ -109,7 +113,7 @@ cite {
 }
 
 .mr {
-    font-size: 30px;
+    font-size: 26px;
     margin-top: 30px;
     color: white;
     line-height: 1;
@@ -117,6 +121,7 @@ cite {
 
 .ceoEpicode {
     font-size: 20px;
+    font-weight: 100;
 }
 
 /* CARDS  */
@@ -165,11 +170,21 @@ address {
     margin-bottom: 30px;
 }
 
+a {
+    color: #c8e7f0;
+}
+
 hr {
     margin-left: 20%;
     margin-right: 20%;
 }
-.copywrite {
+
+.copywrite a {
     margin-top: 40px;
-    color: #c8e7f0;
+}
+
+/* ICON  */
+
+.fas {
+    font-size: 25px;
 }
