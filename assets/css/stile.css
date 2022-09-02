@@ -3,7 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.65;
     font-size: 1.2rem;  
-    max-width: 500px;
+    width: 100%;
     margin: 0 auto;
     font-weight: 100;
 }
