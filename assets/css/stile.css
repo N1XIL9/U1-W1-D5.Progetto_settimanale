@@ -24,12 +24,14 @@ h1, h2 {
 }
 
 /* LOGO  */
+
 .logo {
     width: 180px;
     height: auto;
 }
 
 /* BANNER */
+
 .banner {
     background-image: url("../images/banner.jpg");
     background-position: center;
@@ -61,19 +63,31 @@ h1, h2 {
 
 /* SECTIONS  */
 
-.sections {
+.sectionsOne, .sectionsTwo {
     padding: 24px;
 }
 
-.sections, h2 {
-    margin-top: 20px;
-    margin-bottom: 5px;
+.sectionsOne {
+    margin-top: 30px;
+}
+
+.sectionsOne, .sectionsTwo, h2 {
+    margin-top: 15px;
     font-size: 25px;
+}
+
+.sectionsOne, p {
+    margin-bottom: 20px;
+}
+
+.sectionsTwo, p {
+    margin-bottom: 35px;
 }
 
 .circleImg {
     border-radius: 50%;
 }
 
+/* TESTIMONIALS  */
 
 
